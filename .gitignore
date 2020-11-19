@@ -1,0 +1,23 @@
+**/node_modules
+**/.DS_Store
+**/npm-debug.log
+*.log
+**/node
+*.gz
+
+# IntelliJ
+.idea
+*.iml
+
+# Java
+target/
+
+#VS Code
+.project
+*.project
+.settings/
+*.settings/
+*.classpath
+
+# ui
+ui/public/js

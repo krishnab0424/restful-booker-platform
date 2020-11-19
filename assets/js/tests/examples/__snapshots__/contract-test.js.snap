@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rooms list component 1`] = `
+<div
+  className="detail booking-1"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-2"
+    >
+      <p>
+        James
+      </p>
+    </div>
+    <div
+      className="col-sm-2"
+    >
+      <p>
+        Dean
+      </p>
+    </div>
+    <div
+      className="col-sm-1"
+    >
+      <p>
+        0
+      </p>
+    </div>
+    <div
+      className="col-sm-2"
+    >
+      <p>
+        true
+      </p>
+    </div>
+    <div
+      className="col-sm-2"
+    >
+      <p>
+        2020-02-01
+      </p>
+    </div>
+    <div
+      className="col-sm-2"
+    >
+      <p>
+        2020-02-05
+      </p>
+    </div>
+    <div
+      className="col-sm-1"
+    >
+      <span
+        className="fa fa-pencil bookingEdit"
+        onClick={[Function]}
+        style={
+          Object {
+            "paddingRight": "10px",
+          }
+        }
+      />
+      <span
+        className="fa fa-trash bookingDelete"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

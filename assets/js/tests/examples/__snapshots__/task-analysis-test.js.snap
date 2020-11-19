@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component is created 1`] = `
+<div
+  style={
+    Object {
+      "marginTop": "15%",
+    }
+  }
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-2"
+    />
+    <div
+      className="col-sm-8"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <h2
+        data-testid="login-header"
+      >
+        Log into your account
+      </h2>
+      <br />
+    </div>
+    <div
+      className="col-sm-2"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-4"
+    />
+    <div
+      className="col-sm-4"
+    >
+      <div
+        className="form-group"
+      >
+        <input
+          className="form-control"
+          data-testid="username"
+          id="username"
+          onChange={[Function]}
+          placeholder="Username"
+          style={
+            Object {
+              "border": "1px solid grey",
+            }
+          }
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <input
+          className="form-control"
+          data-testid="password"
+          id="password"
+          onChange={[Function]}
+          placeholder="Password"
+          style={
+            Object {
+              "border": "1px solid grey",
+            }
+          }
+          type="password"
+        />
+      </div>
+      <button
+        className="btn btn-primary float-right"
+        data-testid="submit"
+        id="doLogin"
+        onClick={[Function]}
+        type="submit"
+      >
+        Login
+      </button>
+    </div>
+    <div
+      className="col-sm-4"
+    />
+  </div>
+</div>
+`;

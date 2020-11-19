@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rooms list component 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-1 rowHeader"
+    >
+      <p>
+        Room #
+      </p>
+    </div>
+    <div
+      className="col-sm-2 rowHeader"
+    >
+      <p>
+        Type
+      </p>
+    </div>
+    <div
+      className="col-sm-2 rowHeader"
+    >
+      <p>
+        Accessible
+      </p>
+    </div>
+    <div
+      className="col-sm-1 rowHeader"
+    >
+      <p>
+        Price
+      </p>
+    </div>
+    <div
+      className="col-sm-5 rowHeader"
+    >
+      <p>
+        Room details
+      </p>
+    </div>
+    <div
+      className="col-sm-1"
+    />
+  </div>
+  <div
+    key="1"
+  >
+    <withRouter(RoomListing)
+      details={
+        Object {
+          "accessible": true,
+          "beds": 2,
+          "details": "WiFi, TV, Mini-bar",
+          "roomNumber": 101,
+          "roomid": 1,
+          "type": "Single",
+        }
+      }
+      updateRooms={[Function]}
+    />
+  </div>
+  <RoomForm
+    updateRooms={[Function]}
+  />
+</div>
+`;
